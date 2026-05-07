@@ -22,13 +22,9 @@ WIP document notes:
 
 → ssh username@192.168.1.1
 
-→ shared-network-name = DHCP scope container
+→ shared-network-name = DHCP scope container → DHCP configuration grouping (service layer)
 
-→ shared-network-name → DHCP configuration grouping (service layer)
-
-→ vif = VLAN interface (actual network interface)
-
-→ vif → interface (Layer 3 binding to a VLAN)
+→ vif = VLAN interface
 
 → "Traffic tagged with VLAN 10 arrives → goes to this interface"
 
